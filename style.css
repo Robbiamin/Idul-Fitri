@@ -1,0 +1,53 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: monospace;
+    background-color: rgb(254, 255, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    text-align: center;
+}
+
+.image-wrapper {
+    border-radius: 30px; /* Atur nilai sesuai kebutuhan */
+    overflow: hidden;
+}
+
+.subtitle {
+    font-size: 10px;
+    color: #000000;
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 28px;
+    color: #6c9901;
+    margin-bottom: 30px;
+}
+
+.title1 {
+    font-size: 15px;
+    color: #241717;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #c2dfff;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
